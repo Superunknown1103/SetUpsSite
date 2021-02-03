@@ -8,3 +8,50 @@
     margin-left: 5px;
     margin-right: 5px;
 }
+
+.center {
+    margin-left: 5% !important;
+    margin-right: auto !important;
+}
+
+.spotify-embed { 
+    padding: 5%;
+}
+
+.fa-instagram {
+    color: #C5008E;
+}
+
+.fa-facebook-f {
+    color: #129CF7;
+}
+
+.white {
+    color: white !important;
+}
+
+.fa-music { 
+    font-size: 40px;
+    margin-top: 22px;
+    color: darkslateblue;
+}
+
+@media only screen and (max-width: 900px) {
+    .spotify-embed {
+        padding: 0;
+    }
+
+    .spotify-embed > iframe {
+        width: 300px;
+    }
+  }
+
+  @media only screen and (max-width: 1300px) {
+    .spotify-embed {
+        padding: 5%;
+    }
+
+    .spotify-embed > iframe {
+        width: 400px;
+    }
+  }
