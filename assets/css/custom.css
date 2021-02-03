@@ -31,14 +31,17 @@
 }
 
 .fa-music { 
-    font-size: 40px;
-    margin-top: 22px;
+    font-size: 35px;
     color: darkslateblue;
 }
 
 @media only screen and (max-width: 900px) {
     .spotify-embed {
         padding: 0;
+    }
+
+    .fa-music {
+        margin-top: 14px;
     }
 
     .spotify-embed > iframe {
