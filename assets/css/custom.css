@@ -30,14 +30,39 @@
     color: white !important;
 }
 
+
 .fa-music { 
     font-size: 35px;
     color: darkslateblue;
 }
 
+.setUps {
+  margin: 0 !important;  
+}
+
+.inside-inner {
+    font-size: 2rem;
+    font-style: italic;
+    padding: 10px;
+    /* text-decoration: underline; */
+    cursor: pointer;
+}
+
 @media only screen and (max-width: 900px) {
     .spotify-embed {
         padding: 0;
+    }
+
+    #kingdom > a > img{
+       height: 320px;
+    }
+
+    #kingdom {
+        padding: 1rem;
+    }
+
+    .inside-inner {
+        font-size: 1.5rem;
     }
 
     .fa-music {
