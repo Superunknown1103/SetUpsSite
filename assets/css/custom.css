@@ -48,6 +48,10 @@
     cursor: pointer;
 }
 
+#kingdom > a > img{
+    height: 320px;
+ }
+
 @media only screen and (max-width: 900px) {
     .spotify-embed {
         padding: 0;
